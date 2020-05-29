@@ -18,6 +18,6 @@ var checkDead = setInterval(function(){
         block.style.animation = "none";
         block.style.display = "none";
         alert("You're dead");
-
+        document.location.reload(true)
     }
 },10);
